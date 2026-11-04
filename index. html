@@ -1,0 +1,39 @@
+mkdir love && cd love
+cat > index.html << 'EOF'
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для тебя ❤️</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ffe6e6, #ffb3c1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+        }
+        h1 {
+            color: #e63946;
+            font-size: 3em;
+            text-align: center;
+            animation: pulse 1.5s infinite;
+            text-shadow: 0 0 20px rgba(230,57,70,0.5);
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Я тебя люблю ❤️</h1>
+</body>
+</html>
+EOF
+https://github.com/ника/love.git
