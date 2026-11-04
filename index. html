@@ -36,4 +36,4 @@ cat > index.html << 'EOF'
 </body>
 </html>
 EOF
-https://github.com/ника/love.git
+
